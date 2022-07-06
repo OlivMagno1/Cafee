@@ -17,5 +17,22 @@ nav {
   justify-content: space-between;
 
   width: 25vw;
+  padding: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+  color: #767676;
+}
+
+nav a:hover {
+  font-size: 1.1em;
+  color: #000000;
+}
+
+nav a.router-link-exact-active {
+  color: #000000;
 }
 </style>
