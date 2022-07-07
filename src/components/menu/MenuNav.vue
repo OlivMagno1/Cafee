@@ -18,6 +18,7 @@ nav {
 
   width: 25vw;
   padding: 30px;
+  line-height: 3em;
 }
 
 nav a {
@@ -25,10 +26,12 @@ nav a {
   font-weight: bold;
   font-size: 1em;
   color: #767676;
+
+  transition: 0.2s;
 }
 
 nav a:hover {
-  font-size: 1.1em;
+  transform: scale(1.1);
   color: #333;
 }
 
