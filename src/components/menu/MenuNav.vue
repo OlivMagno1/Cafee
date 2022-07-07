@@ -29,10 +29,10 @@ nav a {
 
 nav a:hover {
   font-size: 1.1em;
-  color: #000000;
+  color: #333;
 }
 
 nav a.router-link-exact-active {
-  color: #000000;
+  color: #333;
 }
 </style>
