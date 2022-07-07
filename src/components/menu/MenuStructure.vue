@@ -23,7 +23,13 @@ export default {
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+
+  position: fixed;
+  width: 90vw;
+  height: 8.5vh;
   margin-left: 5vw;
   margin-right: 5vw;
+
+  backdrop-filter: blur(50px) grayscale(30%);
 }
 </style>
