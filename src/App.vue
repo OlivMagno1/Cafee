@@ -27,7 +27,7 @@ export default {
   font-weight: 700;
 }
 @font-face {
-  font-family: Kaffeesatz;
+  font-family: LabGrotesque;
   src: "@/assets/fonts/Lab-Grotesque-Light.ttf";
   font-weight: 400;
 }

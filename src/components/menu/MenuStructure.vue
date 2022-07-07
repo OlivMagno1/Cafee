@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1>LOGO</h1>
+    <img src="@/assets/icons/coffee.svg" />
     <MenuNav />
-    <h1>BUTTON</h1>
+    <button>Download</button>
   </div>
 </template>
 
@@ -31,5 +31,24 @@ export default {
   margin-right: 5vw;
 
   backdrop-filter: blur(50px) grayscale(30%);
+}
+
+button {
+  width: 7em;
+  height: 2.5em;
+  border-radius: 30px;
+  border: 0;
+
+  background-color: #916047;
+  color: #ffffff;
+
+  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 </style>
