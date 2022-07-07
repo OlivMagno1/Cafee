@@ -1,9 +1,14 @@
 <template>
-  <h1>Tour</h1>
+  <TourTitle />
 </template>
 
 <script>
+import TourTitle from "@/components/tourpage/TourTitle.vue";
+
 export default {
   name: "TourView",
+  components: {
+    TourTitle,
+  },
 };
 </script>
