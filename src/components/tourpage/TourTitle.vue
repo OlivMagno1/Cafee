@@ -12,6 +12,7 @@
     </div>
     <div class="titlecard">
       <h2>Faça já o seu café</h2>
+      <button>Download</button>
     </div>
   </div>
 </template>
@@ -71,5 +72,26 @@ h3 {
 
 .textHighlight {
   color: #916047;
+}
+
+button {
+  width: 8.5em;
+  height: 2.8em;
+  border-radius: 30px;
+  border: 0;
+  margin-bottom: 2em;
+
+  background-color: #916047;
+  color: #ffffff;
+
+  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
 }
 </style>

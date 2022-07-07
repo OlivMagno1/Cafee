@@ -2,16 +2,19 @@
   <div id="container">
     <MenuStructure />
     <router-view />
+    <MulticolFooter />
   </div>
 </template>
 
 <script>
-import MenuStructure from "./components/menu/MenuStructure.vue";
+import MenuStructure from "@/components/menu/MenuStructure.vue";
+import MulticolFooter from "@/components/footer/MulticolFooter.vue";
 
 export default {
   name: "App",
   components: {
     MenuStructure,
+    MulticolFooter,
   },
 };
 </script>
