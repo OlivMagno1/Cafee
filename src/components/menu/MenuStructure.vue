@@ -1,8 +1,12 @@
 <template>
   <div class="container">
-    <img src="@/assets/icons/coffee.svg" />
+    <router-link to="/">
+      <box-icon name="coffee" type="logo" color="#916047"></box-icon>
+    </router-link>
     <MenuNav />
-    <button>Download</button>
+    <button>
+      <router-link to="/download">Download</router-link>
+    </button>
   </div>
 </template>
 
@@ -34,18 +38,22 @@ export default {
 }
 
 button {
-  width: 7em;
-  height: 2.5em;
+  width: 10em;
+  height: 3em;
   border-radius: 30px;
   border: 0;
 
   background-color: #916047;
-  color: #ffffff;
-
-  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
-  font-size: 1.2em;
 
   transition: 0.2s;
+}
+
+button a {
+  font-family: LabGrotesque, Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 button:hover {
