@@ -9,6 +9,7 @@
 <script>
 import MenuStructure from "@/components/menu/MenuStructure.vue";
 import MulticolFooter from "@/components/footer/MulticolFooter.vue";
+import "boxicons";
 
 export default {
   name: "App",
