@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-    <h1>Overview</h1>
+    <h1>Download</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: "OverviewView",
+  name: "DownloadView",
 };
 </script>
 
