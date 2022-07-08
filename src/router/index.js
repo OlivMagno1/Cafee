@@ -4,6 +4,7 @@ import ExamplesView from "@/views/ExamplesView.vue";
 import TourView from "@/views/TourView.vue";
 import BlogView from "@/views/BlogView.vue";
 import HelpView from "@/views/HelpView.vue";
+import DownloadView from "@/views/DownloadView";
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: "/help",
     name: "help",
     component: HelpView,
+  },
+  {
+    path: "/download",
+    name: "download",
+    component: DownloadView,
   },
 ];
 
