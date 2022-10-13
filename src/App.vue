@@ -9,7 +9,6 @@
 <script>
 import MenuStructure from "@/components/menu/MenuStructure.vue";
 import MulticolFooter from "@/components/footer/MulticolFooter.vue";
-import "boxicons";
 
 export default {
   name: "App",
@@ -23,6 +22,13 @@ export default {
 <style>
 * {
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  cursor: default;
 }
 
 @font-face {
